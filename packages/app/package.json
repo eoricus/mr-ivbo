@@ -1,0 +1,15 @@
+{
+  "name": "@mr-ivbo/app",
+  "main": "src/index.js",
+  "author": "erikmikoyan",
+  "license": "WTFPL",
+  "version": "1.0.0",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongodb": "^4.2.2"
+  },
+  "scripts": {
+    "start": "cd ./src && node index"
+  }
+}

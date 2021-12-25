@@ -1,0 +1,15 @@
+{
+  "name": "mr-ivbo",
+  "version": "1.0.0",
+  "description": "page for unethical competition",
+  "main": "./app/src/index.js",
+  "author": "erikmikoyan",
+  "license": "WTFPL",
+  "private": true,
+  "scripts": {
+    "start": "cd ./packages/app && yarn start"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
